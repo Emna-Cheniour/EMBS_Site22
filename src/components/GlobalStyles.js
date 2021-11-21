@@ -8,6 +8,14 @@ const GlobalStyle = createGlobalStyle`
    html > *{
     background:${({ theme }) => theme.bg};
    }
+   .Feedback{
+    background:${({ theme }) => theme.bgFeedback};
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    }
     ${"" /* For all the titles */}
     .title{
         color:${({ theme }) => theme.title};

@@ -204,13 +204,7 @@
 .Feedback {
   padding-bottom: 1rem;
   position: relative;
-  background-image: url("./img/feedback/feedback.jpg");
   min-height: 100%;
-  opacity: 0.95;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   opacity: 0.9;
 }
 
