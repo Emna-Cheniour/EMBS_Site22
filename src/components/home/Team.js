@@ -13,20 +13,20 @@ import { SiFacebook, SiInstagram, SiLinkedin } from "react-icons/si";
 
 const ourTeam = [
   {
-    image: amina,
-    name: "Amina Elair",
-    post: "Chairwoman",
-    fb: "https://www.facebook.com/profile.php?id=100005447370834",
-    insta: "https://www.instagram.com/amina_elair/",
-    linkedin: "https://www.linkedin.com/in/amina-elair-1bba82219",
-  },
-  {
     image: yasmine,
     name: "Yasmine Zarrouk",
-    post: "Vice Chair",
+    post: "Chairwoman",
     fb: "https://www.facebook.com/yasmiinezarrouk/",
     insta: "https://www.instagram.com/yasszarrouk_/",
     linkedin: "#",
+  },
+  {
+    image: chaima,
+    name: "Chaima Fadhloune ",
+    post: "Vice Chair & Training Manager",
+    fb: "https://www.facebook.com/chaima.fadhloune.31",
+    insta: "https://www.instagram.com/chaima_fadhloune/",
+    linkedin: "https://www.linkedin.com/in/chaima-fadhloune-961330211",
   },
   {
     image: syrine,
@@ -43,14 +43,6 @@ const ourTeam = [
     fb: "https://www.facebook.com/profile.php?id=100009469162142",
     insta: "https://www.instagram.com/kkhoulouud/",
     linkedin: "#",
-  },
-  {
-    image: chaima,
-    name: "Chaima Fadhloune ",
-    post: "Training Manager",
-    fb: "https://www.facebook.com/chaima.fadhloune.31",
-    insta: "https://www.instagram.com/chaima_fadhloune/",
-    linkedin: "https://www.linkedin.com/in/chaima-fadhloune-961330211",
   },
   {
     image: nour,
