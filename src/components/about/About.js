@@ -1,21 +1,26 @@
-import React from "react";
+import React, {useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import pic from "./img/act.webp";
 import ieee_white from "./img/ieee_white.png";
 import ieee_black from "./img/ieee_black.png";
-import embs_white from "./img/embs_white.png";
-import embs_black from "./img/embs_black.png";
+import embs_white from "./img/embs_profil.png";
+import embs_black from "./img/embs_blanc.png";
 import ieee_tunisia_white from "./img/ieee_tunisia_white.png";
 import ieee_tunisia_black from "./img/ieee_tunisia_black.png";
 import ieee_insat_white from "./img/ieee_insat_white.png";
 import ieee_insat_black from "./img/ieee_insat_black.png";
-import embs_logo_white from "./img/embs_logo_white.png";
-import embs_logo_black from "./img/embs_logo_black.png";
+import embs_logo_white from "./img/embs_profil.png";
+import embs_logo_black from "./img/embs_blanc.png";
 import { Container, Row, Col } from "react-bootstrap";
 import "./aboutStyle.css";
 import { Wrapper, BgImage, Content, pageTransition } from "../bannerElements";
 import { motion } from "framer-motion";
 
 const About = (props) => {
+  useEffect(() => {
+    Aos.init({duration : 2000});
+  }, [])
   const { theme } = props;
   return (
     <motion.div initial="out" animate="in" exit="out" variants={pageTransition}>
@@ -28,14 +33,14 @@ const About = (props) => {
       <div className="about-section">
         <Container>
           <Row className="row-about">
-            <Col className="col-about" sm={12} md={4}>
+            <Col data-aos="fade-right" className="col-about" sm={12} md={4}>
               <img
                 className="ieee-logo"
                 src={theme === "light" ? ieee_white : ieee_black}
                 alt="ieee"
               />
             </Col>
-            <Col sm={12} md={8}>
+            <Col data-aos="fade-left" sm={12} md={8}>
               <h1 className="title">WHO ARE IEEE ?</h1>
               <p className="paragraph">
                 IEEE is the world’s largest technical professional organization
@@ -54,7 +59,7 @@ const About = (props) => {
           </Row>
 
           <Row className="row-about">
-            <Col sm={12} md={8}>
+            <Col  data-aos="fade-right" sm={12} md={8}>
               <h1 className="title">AND WHAT IS EMBS CHAPTER ?</h1>
               <p className="paragraph">
                 IEEE Engineering in Medicine and Biology Society (EMBS) is the
@@ -68,7 +73,7 @@ const About = (props) => {
                 fastest growing fields in science.
               </p>
             </Col>
-            <Col className="col-about" sm={12} md={4}>
+            <Col data-aos="fade-left" className="col-about" sm={12} md={4}>
               <img
                 className="embs-logo"
                 src={theme === "light" ? embs_white : embs_black}
@@ -77,8 +82,8 @@ const About = (props) => {
             </Col>
           </Row>
 
-          <Row className="row-about">
-            <Col sm={12} md={{ span: 8, order: 2 }}>
+          <Row data-aos="fade-up" className="row-about">
+            <Col data-aos="fade-left" sm={12} md={{ span: 8, order: 2 }}>
               <h1 className="title">EMBS TUNISIA SECTION</h1>
               <p className="paragraph">
                 The IEEE Tunisia EMB Chapter is established in January 2009.
@@ -100,7 +105,7 @@ const About = (props) => {
                 seminars, lectures, schools, conferences, and other events.
               </p>
             </Col>
-            <Col className="col-about" sm={12} md={{ span: 4, order: 1 }}>
+            <Col data-aos="fade-right" className="col-about" sm={12} md={{ span: 4, order: 1 }}>
               <img
                 className="ieee-tunisia-logo"
                 src={
@@ -112,7 +117,7 @@ const About = (props) => {
           </Row>
 
           <Row className="row-about">
-            <Col sm={12} md={8}>
+            <Col data-aos="fade-right" sm={12} md={8}>
               <h1 className="title">EMBS IN INSAT !</h1>
               <p className="paragraph">
                 INSAT Student Branch EMBS Chapter is the latest chapter within
@@ -126,7 +131,7 @@ const About = (props) => {
                 to share what they learned with their environement.
               </p>
             </Col>
-            <Col className="col-about" sm={12} md={4}>
+            <Col data-aos="fade-left" className="col-about" sm={12} md={4}>
               <img
                 className="ieee-insat-logo"
                 src={theme === "light" ? ieee_insat_white : ieee_insat_black}
@@ -136,7 +141,7 @@ const About = (props) => {
           </Row>
 
           <Row className="row-about">
-            <Col sm={12} md={{ span: 8, order: 2 }}>
+            <Col data-aos="fade-left" sm={12} md={{ span: 8, order: 2 }}>
               <h1 className="title">WELCOME TO OUR COMMUNITY !</h1>
               <p className="paragraph">
                 Do you want to know how to design the electrical circuits that
@@ -157,7 +162,7 @@ const About = (props) => {
                 healthcare technology for the benefit of all humanity.
               </p>
             </Col>
-            <Col className="col-about" sm={12} md={{ span: 4, order: 1 }}>
+            <Col data-aos="fade-right" className="col-about" sm={12} md={{ span: 4, order: 1 }}>
               <img
                 className="embs-logo"
                 src={theme === "light" ? embs_logo_white : embs_logo_black}

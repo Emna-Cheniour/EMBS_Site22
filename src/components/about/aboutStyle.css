@@ -1,6 +1,7 @@
 .about-section {
   background-color: #ffffff;
   padding-bottom: 1rem;
+  margin: 5rem;
 }
 
 .row-about {
@@ -80,8 +81,20 @@
   font-size: 1rem;
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
+}/*
+.col-right{
+  transform: translateX(50%);
 }
-
+.col-left{
+  transform: translateX(-50%);
+}
+.col-left,.col-right{
+  transition: transform 400ms ease-in;
+}
+.col-left.appear,
+.col-right.appear{
+  transition: translateX(0);
+}*/
 /* ipad */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .sponsors-section .title {
