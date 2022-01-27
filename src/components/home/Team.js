@@ -1,15 +1,16 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { Row, Container } from "react-bootstrap";
 import "./homeStyle.css";
 import asma from "./img/team/asma.jpg";
 import yasmine from "./img/team/yasmine.JPG";
 import syrine from "./img/team/syrine.JPG";
-import amina from "./img/team/amina.JPG";
 import khouloud from "./img/team/khouloud.jpg";
 import emna from "./img/team/emna.JPG";
 import chaima from "./img/team/chaima.jpg";
 import nour from "./img/team/nour.jpg";
 import { SiFacebook, SiInstagram, SiLinkedin } from "react-icons/si";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ourTeam = [
   {
@@ -71,11 +72,14 @@ const ourTeam = [
 ];
 
 const Team = () => {
+  useEffect(() => {
+    Aos.init({duration : 2000});
+  }, [])
   return (
     <section className="team-section">
       {/*  check https://github.com/michalsnik/aos#animations for the animation */}
       <Container>
-        <Row>
+        <Row data-aos="fade-down">
           <h1 className="title">Our Team</h1>
         </Row>
 

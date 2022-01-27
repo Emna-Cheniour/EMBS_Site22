@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
     ${"" /* For all the titles */}
     .title{
         color:${({ theme }) => theme.title};
+        letter-spacing: 3px;
     }
     ${"" /* For all titles descriptions */}
     .paragraph{
@@ -30,13 +31,13 @@ const GlobalStyle = createGlobalStyle`
     }
     ${"" /* Backgrounds */}
     .team-section, 
-    .training-section, .charity-section{
+    .training-section, .visits-section, .charity-section{
         background-color:${({ theme }) => theme.bg1};
     }
     .sponsors-section {
         background-color:${({ theme }) => theme.bg5};
    }
-    .event-section , .visits-section, .collab-section{
+    .event-section , .collab-section{
         background-color:${({ theme }) => theme.bg3}
     }
     .about-section, .contact-section{

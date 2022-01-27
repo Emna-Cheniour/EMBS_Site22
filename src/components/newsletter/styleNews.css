@@ -9,7 +9,7 @@
   text-transform: uppercase;
   font-size: 2.3rem;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .charity-section .body {
@@ -20,7 +20,7 @@
   font-size: 0.9rem;
 
   line-height: 26px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .charity-section .main-row > div {
@@ -62,7 +62,7 @@
   font-weight: 500;
   padding: 0.8rem 1rem;
   margin-bottom: 0rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .box2 h3 {
@@ -100,8 +100,9 @@
 
 /* Colaboration */
 .collab-section {
-  padding-top: 3.4rem;
-  padding-bottom: 3rem;
+  padding: 4rem;
+  margin: 5rem;
+  border-radius: 10px;
 }
 
 .collab-section .title {
@@ -110,23 +111,21 @@
   text-transform: uppercase;
   font-size: 2.3rem;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .collab-section .body {
-  margin: 0.2rem auto;
+  margin: 0.3rem auto;
   text-align: center;
   padding: 0rem 2rem;
   margin-bottom: 1.2rem;
   font-size: 0.9rem;
-
   line-height: 26px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .collab-section .main-row .collab-box {
-  display: inline-block;
-  width: 23.2%;
+  width: 24%;
   margin: 1rem auto;
   border-radius: 5px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -142,25 +141,31 @@
 
 .collab-section .main-row .collab-box img {
   width: 100%;
+  height: 50%;
   border-radius: 4px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .collab-section .main-row .main-row-text {
   padding: 20px 30px;
+  text-align: center;
+  color: #f26d7d;
 }
 
 .collab-section .main-row .main-row-text h2 {
   line-height: 26px;
+  color: #f26d7d;
   font-size: 1.25rem;
-  font-weight: 500;
-  margin-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-weight:bold;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
 }
-.collab-section .main-row .views {
-  color: #999;
+.collab-section .main-row  .main-row-text p{
+  color: #05024b;
   font-size: 0.9rem;
   margin-right: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 /* ipad */
 @media only screen and (min-width: 768px) and (max-width: 991px) {

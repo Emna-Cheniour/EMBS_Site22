@@ -1,0 +1,147 @@
+/* Taswira lekbira */
+
+.banner-text {
+  color: #fff;
+  position: relative;
+  text-align: center;
+  top: 30vh;
+  font-size: 6rem;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+/* Meduim Screens */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner-text {
+    top: 30vh;
+    font-size: 4.2rem;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .banner-text {
+    top: 30vh;
+    font-size: 3.4rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .banner-text {
+    top: 30vh;
+    font-size: 2.5rem;
+  }
+}
+
+/* Visits */
+.visits-section {
+  padding-top: 2.5rem;
+  padding-bottom: 3.5rem;
+}
+.gallery{
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+}
+.visits-section .title {
+  margin-bottom: 0.6rem;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.visits-section .body {
+  margin: 0.2rem auto;
+  text-align: center;
+  padding: 0rem 2rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.9rem;
+  line-height: 26px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.visits-section .visit-date {
+  margin: 0.2rem auto;
+  text-align: center;
+  padding: 0rem 2rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.35rem;
+  line-height: 26px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.visits-section .main-row {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Text when Hovering on the carousel */
+.visit-wrapper {
+  transition: background-color 0.4s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visit-wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.visit-text {
+  color: transparent;
+  position: absolute;
+  font-size: 1.7rem;
+  transition: color 0.4s ease-in-out;
+}
+
+.visit-wrapper:hover .visit-text {
+  color: #fff;
+}
+
+.visit-wrapper .visit-carr {
+  transition: opacity 0.4s ease-in-out;
+}
+
+.visit-wrapper:hover .visit-carr {
+  opacity: 0.2;
+}
+
+/* ipad */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .visits-section .title {
+    font-size: 2rem;
+  }
+
+  .visit-text {
+    font-size: 1.4rem;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .visits-section .title {
+    font-size: 1.6rem;
+  }
+
+  .visits-section .visit-date {
+    font-size: 1.2rem;
+  }
+  .visit-text {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .visit-text {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .visit-text {
+    font-size: 0.8rem;
+  }
+}
