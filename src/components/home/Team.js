@@ -11,6 +11,7 @@ import nour from "./img/team/nour.jpg";
 import { SiFacebook, SiInstagram, SiLinkedin } from "react-icons/si";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { motion } from "framer-motion";
 
 const ourTeam = [
   {
@@ -72,19 +73,24 @@ const ourTeam = [
 ];
 
 const Team = () => {
+  
   useEffect(() => {
     Aos.init({duration : 2000});
   }, [])
   return (
     <section className="team-section">
-      {/*  check https://github.com/michalsnik/aos#animations for the animation */}
-      <Container>
+      <Container >
         <Row data-aos="fade-down">
           <h1 className="title">Our Team</h1>
         </Row>
 
         <Row className="main-row">
           {ourTeam.map((e) => (
+            <motion.div whileHover={{ scale: 1.1, rotate: 360 }}
+            whileTap={{
+              scale: 0.8,
+              rotate: -360
+            }} >
             <div key={e.post} className="team-boxes">
               <img src={e.image} alt={e.name} />
               <p className="name">{e.name}</p>
@@ -104,6 +110,7 @@ const Team = () => {
                 </a>
               </p>
             </div>
+          </motion.div>
           ))}
         </Row>
       </Container>

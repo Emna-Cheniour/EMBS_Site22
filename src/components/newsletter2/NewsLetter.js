@@ -1,9 +1,9 @@
 import React from "react";
 import pic from "./img/pic.webp";
-import Charity from "./Charity";
-import Collaboration from "./Collaboration";
 import { Wrapper, BgImage, Content, pageTransition } from "../bannerElements";
 import { motion } from "framer-motion";
+import Pdf from "./Pdf";
+import { Container, Row } from "react-bootstrap";
 
 const NewsLetter2 = () => {
   return (
@@ -14,8 +14,14 @@ const NewsLetter2 = () => {
           <h1 className="banner-text">NewsLetter</h1>
         </Content>
       </Wrapper>
-      <Charity />
-      <Collaboration />
+      <Container>
+        <Row>
+          <h1 className="title">Our News</h1>
+        </Row>
+        <Row>
+          <Pdf />
+        </Row>
+      </Container>
     </motion.div>
   );
 };
