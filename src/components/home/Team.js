@@ -3,6 +3,7 @@ import { Row, Container } from "react-bootstrap";
 import "./homeStyle.css";
 import asma from "./img/team/asma.jpg";
 import yasmine from "./img/team/yasmine.JPG";
+import sadok from "./img/team/sadek.png";
 import syrine from "./img/team/syrine.JPG";
 import khouloud from "./img/team/khouloud.jpg";
 import emna from "./img/team/emna.JPG";
@@ -53,6 +54,14 @@ const ourTeam = [
     fb: "https://www.facebook.com/nour.kalai",
     insta: "https://www.instagram.com/nour.kalai/",
     linkedin: "https://www.linkedin.com/in/nour-kalai-6b1767193",
+  },
+  {
+    image: sadok,
+    name: "Sadok Rais",
+    post: "Co-Media Manager",
+    fb: "https://www.facebook.com/sadok.rais",
+    insta: "https://www.instagram.com/sadok.rais/",
+    linkedin: "https://www.linkedin.com/in/sadok-rais-0012901a0/",
   },
   {
     image: asma,
