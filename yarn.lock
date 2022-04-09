@@ -2980,6 +2980,16 @@
     "chalk" "^2.4.2"
     "slash" "^2.0.0"
 
+"babel-loader@^8.2.4":
+  "integrity" "sha512-8dytA3gcvPPPv4Grjhnt8b5IIiTcq/zeXOPk4iTYI0SVXcsmuGg7JtBRDp8S9X+gJfhQ8ektjXZlDu1Bb33U8A=="
+  "resolved" "https://registry.npmjs.org/babel-loader/-/babel-loader-8.2.4.tgz"
+  "version" "8.2.4"
+  dependencies:
+    "find-cache-dir" "^3.3.1"
+    "loader-utils" "^2.0.0"
+    "make-dir" "^3.1.0"
+    "schema-utils" "^2.6.5"
+
 "babel-loader@8.1.0":
   "integrity" "sha512-7q7nC1tYOrqvUrN3LQK4GwSk/TQorZSOlO9C+RZDZpODgyN4ZlCqE5q9cDsyWOliN+aU9B4JX01xK9eJXowJLw=="
   "resolved" "https://registry.npmjs.org/babel-loader/-/babel-loader-8.1.0.tgz"
@@ -5797,6 +5807,15 @@
     "make-dir" "^3.0.2"
     "pkg-dir" "^4.1.0"
 
+"find-cache-dir@^3.3.1":
+  "integrity" "sha512-wXZV5emFEjrridIgED11OoUKLxiYjAcqot/NJdAkOhlJ+vGzwhOAfcG5OX1jP+S0PcjEn8bdMJv+g2jwQ3Onig=="
+  "resolved" "https://registry.npmjs.org/find-cache-dir/-/find-cache-dir-3.3.2.tgz"
+  "version" "3.3.2"
+  dependencies:
+    "commondir" "^1.0.1"
+    "make-dir" "^3.0.2"
+    "pkg-dir" "^4.1.0"
+
 "find-up@^1.0.0":
   "integrity" "sha1-ay6YIrGizgpgq2TWEOzK1TyyTQ8="
   "resolved" "https://registry.npmjs.org/find-up/-/find-up-1.1.2.tgz"
@@ -8069,6 +8088,15 @@
     "emojis-list" "^3.0.0"
     "json5" "^1.0.1"
 
+"loader-utils@^2.0.0":
+  "integrity" "sha512-TM57VeHptv569d/GKh6TAYdzKblwDNiumOdkFnejjD0XwTH87K90w3O7AiJRqdQoXygvi1VQTJTLGhJl7WqA7A=="
+  "resolved" "https://registry.npmjs.org/loader-utils/-/loader-utils-2.0.2.tgz"
+  "version" "2.0.2"
+  dependencies:
+    "big.js" "^5.2.2"
+    "emojis-list" "^3.0.0"
+    "json5" "^2.1.2"
+
 "loader-utils@1.2.3":
   "integrity" "sha512-fkpz8ejdnEMG3s37wGL07iSBDg99O9D5yflE9RGNH3hRdx9SOwYfnGYdZOUIZitN8E+E2vkq3MUMYMvPYl5ZZA=="
   "resolved" "https://registry.npmjs.org/loader-utils/-/loader-utils-1.2.3.tgz"
@@ -8221,7 +8249,7 @@
     "pify" "^4.0.1"
     "semver" "^5.6.0"
 
-"make-dir@^3.0.2":
+"make-dir@^3.0.2", "make-dir@^3.1.0":
   "integrity" "sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw=="
   "resolved" "https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz"
   "version" "3.1.0"
@@ -13191,13 +13219,6 @@
   "version" "4.0.3"
   dependencies:
     "loose-envify" "^1.0.0"
-
-"watchpack-chokidar2@^2.0.0":
-  "integrity" "sha512-9TyfOyN/zLUbA288wZ8IsMZ+6cbzvsNyEzSBp6e/zkifi6xxbl8SmQ/CxQq32k8NNqrdVEVUVSEf56L4rQ/ZxA=="
-  "resolved" "https://registry.npmjs.org/watchpack-chokidar2/-/watchpack-chokidar2-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "chokidar" "^2.1.8"
 
 "watchpack@^1.4.0", "watchpack@^1.6.0":
   "integrity" "sha512-aWAgTW4MoSJzZPAicljkO1hsi1oKj/RRq/OJQh2PKI2UKL04c2Bs+MBOB+BBABHTXJpf9mCwHN7ANCvYsvY2sg=="
