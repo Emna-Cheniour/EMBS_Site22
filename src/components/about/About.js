@@ -40,7 +40,7 @@ const About = (props) => {
                 alt="ieee"
               />
             </Col>
-            <Col data-aos="fade-left" sm={12} md={8}>
+            <Col data-aos="fade-right" sm={12} md={8}>
               <h1 className="title">WHO ARE IEEE ?</h1>
               <p className="paragraph">
                 IEEE is the world’s largest technical professional organization
@@ -73,7 +73,7 @@ const About = (props) => {
                 fastest growing fields in science.
               </p>
             </Col>
-            <Col data-aos="fade-left" className="col-about" sm={12} md={4}>
+            <Col data-aos="fade-right" className="col-about" sm={12} md={4}>
               <img
                 className="embs-logo"
                 src={theme === "light" ? embs_white : embs_black}
@@ -83,7 +83,7 @@ const About = (props) => {
           </Row>
 
           <Row data-aos="fade-up" className="row-about">
-            <Col data-aos="fade-left" sm={12} md={{ span: 8, order: 2 }}>
+            <Col data-aos="fade-right" sm={12} md={{ span: 8, order: 2 }}>
               <h1 className="title">EMBS TUNISIA SECTION</h1>
               <p className="paragraph">
                 The IEEE Tunisia EMB Chapter is established in January 2009.
@@ -131,7 +131,7 @@ const About = (props) => {
                 to share what they learned with their environement.
               </p>
             </Col>
-            <Col data-aos="fade-left" className="col-about" sm={12} md={4}>
+            <Col data-aos="fade-right" className="col-about" sm={12} md={4}>
               <img
                 className="ieee-insat-logo"
                 src={theme === "light" ? ieee_insat_white : ieee_insat_black}
@@ -141,7 +141,7 @@ const About = (props) => {
           </Row>
 
           <Row className="row-about">
-            <Col data-aos="fade-left" sm={12} md={{ span: 8, order: 2 }}>
+            <Col data-aos="fade-right" sm={12} md={{ span: 8, order: 2 }}>
               <h1 className="title">WELCOME TO OUR COMMUNITY !</h1>
               <p className="paragraph">
                 Do you want to know how to design the electrical circuits that
