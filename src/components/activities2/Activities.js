@@ -56,8 +56,9 @@ function Activities2() {
                   className={`button ${
                     isDnaIcon ? "dnaButton" : "biologyButton"
                   }`}
-                  href="/"
-                >
+                  href={element.link}
+                  target="_blank"
+                  rel="noopener noreferrer">
                   {element.buttonText}
                 </a>
               )}

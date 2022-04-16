@@ -27,17 +27,7 @@ const Visits = () => {
         <Row className="main-row">
           <div className="visit-wrapper">
             <p className="visit-text">
-              We believe that it's really crucial
-              <br />
-              to witness how real work is done
-              <br />
-              and that’s when the idea of
-              <br />
-              industrial visits came in for EMBS.
-              <br />
-              So don't hesitate to take part in
-              <br />
-              such an amazing experience !
+            In EMBS INSAT SB we try to organize <br/>a variety of events that may be of <br/> interest to all categories of students:<br/> Projects, Hackathons, conferences,<br/> industrial visits...
             </p>
             <Carousel
               pause="false"
